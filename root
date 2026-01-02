@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zul & Partner Wedding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Zul & Partner</h1>
+    <p class="subtitle">Kami menjemput anda ke majlis perkahwinan kami</p>
+    <p class="date">20 July 2026</p>
+    <div id="countdown"></div>
+  </section>
+
+  <!-- EVENT DETAILS -->
+  <section class="card">
+    <h2>📍 Majlis Details</h2>
+    <p><strong>Nikah:</strong> 10:00 AM</p>
+    <p><strong>Reception:</strong> 12:00 PM – 4:00 PM</p>
+    <p><strong>Venue:</strong> Dewan Seri Indah, Selangor</p>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="card">
+    <h2>🗺 Location</h2>
+    <iframe 
+      src="https://www.google.com/maps?q=selangor&output=embed"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- RSVP -->
+  <section class="card">
+    <h2>📩 RSVP</h2>
+    <p>Sila sahkan kehadiran anda</p>
+    <a class="btn" href="https://forms.gle/PUT_YOUR_FORM_LINK" target="_blank">
+      RSVP Now
+    </a>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="card">
+    <h2>💍 Our Moments</h2>
+    <img src="images/couple.jpg" alt="Couple Photo">
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>With love ❤️ Zul & Partner</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
